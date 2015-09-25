@@ -1,0 +1,146 @@
+
+
+<style>
+
+
+body {
+    /* Typography Declarations */
+    color: #666;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	}
+
+.masthead {
+	/* Layout Declrations */
+	padding: 6em 0;
+	/* Appearance Declrations */
+	background-image: url('https://images.unsplash.com/photo-1428546400084-dc2a84db68bb?q=80&fm=jpg&s=48af2fe87f61a76d42220efdb80ce043');
+	border-radius: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: solid 1em #036;
+	min-height:15em;
+}
+
+.masthead-intro {
+	/* Layout Declarations */
+	margin-bottom: 0.1em;
+	/* Typography Declarations */
+	color: #900;
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-size: 2em;
+}
+
+.masthead-heading {
+	/* Layout Declarations */
+	margin-top: -0.2em;
+	/* Typography Declarations */
+	color: #CF0;
+	font-family: "Open Sams", sans-serif;
+	font-weight: bold;
+	font-size: 6em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	text-shadow: 0px 5px 0px #036;
+	text-align:center;	
+}
+
+.masthead-secondary {
+	/* Layout Declarations */
+	margin-top: -3em;
+	/* Typography Declarations */
+	color: #CF0;
+	font-family: "Helvetica", sans-serif;
+	font-size: 1.5em;
+	font-style:italic;
+	text-shadow: 0px 1px 0px #036;
+	text-align:center;
+	margin-left:13em;
+}
+
+.masthead-intro,
+.masthead-heading,
+.content-footer {
+    text-align: center;
+}
+
+  .masthead {
+    padding:  3em 0;
+  }
+  
+  
+h2 {
+	color: #036;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+h3 {
+	color: #6C3;
+	font-family:Verdana, Geneva, sans-serif;
+	margin:auto;
+	font-style:italic;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top:2em;
+	margin-bottom:3em;
+}
+
+
+
+p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+	color:#666;
+	
+}
+
+
+section {
+	margin-left:4em;
+	margin-right:4em;
+}
+
+
+
+.footer {
+	font-size:1em;
+	background-color:#CCC;
+	color:#036;
+	text-align:center;
+	padding: 5em 0em;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.social-li {
+	list-style:none;
+	display: inline-block;
+	margin-right: 1em;
+	}
+
+.footer-small-type {
+	font-size:.75em;
+}
+
+a {
+	/* Typography Declarations */
+	font-weight: bold;
+	text-decoration: none;
+	color: #6C3;
+}
+
+a:hover {
+	/* Tyopography Declarations */
+	color: #039;
+}
+
+a:visited {
+	/* Typography Declarations */
+	color: #036;
+}
+	
